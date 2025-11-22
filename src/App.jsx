@@ -3,16 +3,22 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import About from './components/About'
 import Contact from './components/Contact'
+import Trust from './components/Trust'
+import Gallery from './components/Gallery'
+import CTA from './components/CTA'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white via-sky-50/40 to-white text-slate-800">
+    <div className="min-h-screen bg-white text-slate-800">
       <Navbar />
 
       <main>
         <Hero />
+        <Trust />
         <Services />
         <About />
+        <Gallery />
+        <CTA />
         <Contact />
       </main>
 
