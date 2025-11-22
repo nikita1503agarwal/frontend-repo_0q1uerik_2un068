@@ -13,18 +13,18 @@ export default function Services() {
   return (
     <section id="services" className="mx-auto max-w-7xl px-4 py-24">
       <div className="mb-10 text-center">
-        <h2 className="text-3xl font-bold text-white md:text-4xl">Our Services</h2>
-        <p className="mt-3 text-slate-300">Comprehensive treatments delivered with empathy and expertise</p>
+        <h2 className="text-3xl font-bold text-slate-900 md:text-4xl">Our Services</h2>
+        <p className="mt-3 text-slate-600">Comprehensive treatments delivered with empathy and expertise</p>
       </div>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {services.map(({ icon: Icon, title, desc }) => (
-          <div key={title} className="group rounded-2xl border border-white/10 bg-slate-800/40 p-6 shadow transition hover:bg-slate-800/60">
-            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-sky-500 to-emerald-500 text-white">
+          <div key={title} className="group rounded-2xl border border-slate-200 bg-white p-6 shadow-sm transition hover:shadow">
+            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-sky-50 text-sky-700 ring-1 ring-sky-100">
               <Icon size={22} />
             </div>
-            <h3 className="text-lg font-semibold text-white">{title}</h3>
-            <p className="mt-2 text-sm text-slate-300">{desc}</p>
+            <h3 className="text-lg font-semibold text-slate-900">{title}</h3>
+            <p className="mt-2 text-sm text-slate-600">{desc}</p>
           </div>
         ))}
       </div>

@@ -3,21 +3,21 @@ export default function About() {
     <section id="about" className="mx-auto max-w-7xl px-4 py-24">
       <div className="grid items-center gap-10 md:grid-cols-2">
         <div>
-          <h2 className="text-3xl font-bold text-white md:text-4xl">Why Choose Us</h2>
-          <p className="mt-4 text-slate-300">
+          <h2 className="text-3xl font-bold text-slate-900 md:text-4xl">Why Choose Us</h2>
+          <p className="mt-4 text-slate-600">
             We combine experienced physicians with modern diagnostics to deliver accurate treatment plans and faster recovery. Our clinic is designed around patient comfort, efficient service and transparent pricing.
           </p>
-          <ul className="mt-6 grid gap-3 text-sm text-slate-300">
-            <li className="rounded-lg border border-white/10 bg-white/5 px-4 py-3">Same-day appointments</li>
-            <li className="rounded-lg border border-white/10 bg-white/5 px-4 py-3">Electronic prescriptions & reports</li>
-            <li className="rounded-lg border border-white/10 bg-white/5 px-4 py-3">Insurance assistance</li>
-            <li className="rounded-lg border border-white/10 bg-white/5 px-4 py-3">Accessible location with parking</li>
+          <ul className="mt-6 grid gap-3 text-sm text-slate-700">
+            <li className="rounded-lg border border-slate-200 bg-white px-4 py-3">Same-day appointments</li>
+            <li className="rounded-lg border border-slate-200 bg-white px-4 py-3">Electronic prescriptions & reports</li>
+            <li className="rounded-lg border border-slate-200 bg-white px-4 py-3">Insurance assistance</li>
+            <li className="rounded-lg border border-slate-200 bg-white px-4 py-3">Accessible location with parking</li>
           </ul>
         </div>
         <div className="relative">
-          <div className="rounded-3xl border border-white/10 bg-slate-800/40 p-3 shadow-xl backdrop-blur">
+          <div className="rounded-3xl border border-slate-200 bg-white p-3 shadow-xl">
             <img src="/clinic-team.jpg" alt="Team" className="h-[340px] w-full rounded-2xl object-cover" />
-            <div className="absolute inset-0 rounded-2xl ring-1 ring-white/10" />
+            <div className="absolute inset-0 rounded-2xl ring-1 ring-slate-200/70" />
           </div>
         </div>
       </div>
